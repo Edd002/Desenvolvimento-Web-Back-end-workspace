@@ -1,0 +1,41 @@
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.util.Date;
+
+import javax.servlet.Filter;
+import javax.servlet.FilterChain;
+import javax.servlet.FilterConfig;
+import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletException;
+import javax.servlet.ServletRequest;
+import javax.servlet.ServletResponse;
+
+public class RodapeFilter implements Filter {
+
+	public RodapeFilter() {
+    }
+
+	public void destroy() {
+	}
+
+	public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws IOException, ServletException {
+		System.out.println("RodapeDoFilter");
+		
+		
+		PrintWriter out = response.getWriter();
+		out.println("<br>Data: " + new Date());
+ 
+		RequestDispatcher rd = request.getRequestDispatcher("Hello.jsp");
+		rd.include(request, response);
+		
+		
+		exibe(request, response, (new Date()).toString());
+		
+		
+		
+		chain.doFilter(request, response);
+	}
+
+	public void init(FilterConfig fConfig) throws ServletException {
+	}
+}

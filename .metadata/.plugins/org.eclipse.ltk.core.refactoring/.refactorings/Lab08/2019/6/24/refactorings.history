@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;rd&apos; in &apos;LoginFilter.doFilter(...)&apos; to &apos;resquestDispatcher&apos;&#x0D;&#x0A;- Original project: &apos;Lab08&apos;&#x0D;&#x0A;- Original element: &apos;LoginFilter.doFilter(ServletRequest, ServletResponse, FilterChain).rd&apos;&#x0D;&#x0A;- Renamed element: &apos;rd&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;rd&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;{LoginFilter.java[LoginFilter~doFilter~QServletRequest;~QServletResponse;~QFilterChain;@rd!909!936!927!928!QRequestDispatcher;!0!false" name="resquestDispatcher" references="true" stamp="1560214074775" version="1.0"/>
+</session>

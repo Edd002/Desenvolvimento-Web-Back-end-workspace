@@ -1,0 +1,14 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="ISO-8859-1">
+	<title>Erro</title>
+</head>
+<body>
+	<h4>Servlet utilizado <%= request.getSession().getAttribute("contador") %> vezes.</h4><br>
+	<h5>Limite alcançado para essa sessão.</h5><br><br>
+	<a href="entrada.jsp">Voltar</a>
+</body>
+</html>

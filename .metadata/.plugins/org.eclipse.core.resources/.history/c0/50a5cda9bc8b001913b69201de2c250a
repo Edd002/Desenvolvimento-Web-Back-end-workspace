@@ -1,0 +1,21 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html >
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Potência</title>
+</head>
+<body>
+	<h1>Potência</h1>
+	<form action="potencia" method="post">
+		<label>Base (número real): </label> <input type="text" name="base"><br>
+		<label>Expoente (número inteiro): </label> <input type="text" name="expoente"><br>
+		<input type="submit" value="Calcular"><br><br>
+	</form>
+	<label>Resultado: </label> <!-- RESULTADO --> <br>
+	<a href="potencia">Reiniciar</a><br>
+	<a href="login">Sair</a><br><br>
+	<!-- MENSAGEM -->
+</body>
+</html>

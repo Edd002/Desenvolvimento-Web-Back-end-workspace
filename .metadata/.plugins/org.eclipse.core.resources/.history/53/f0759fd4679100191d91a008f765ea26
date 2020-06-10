@@ -1,0 +1,70 @@
+import java.io.IOException;
+import java.util.Arrays;
+
+import javax.servlet.ServletConfig;
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public class ClassificaServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+	public ClassificaServlet() {
+        super();
+    }
+
+	public void init(ServletConfig config) throws ServletException {
+		super.init(config);
+	}
+
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		request.getSession().invalidate();
+		response.sendRedirect("classifica.jsp");
+	}
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		System.out.println("Lista: " + request.getParameter("lista"));
+		System.out.println("Descendente: " + request.getParameter("descendente"));
+
+		String mensagem = "";
+		String lista = request.getParameter("lista");
+
+		if (!lista.equals("")) {
+		String[] arrayLista = lista.split("\\s+");
+			for(String n : arrayLista) {
+				try {
+					Integer.parseInt(n);
+				} catch (NumberFormatException numberFormatException) {
+					mensagem = "A lista deve conter apenas números inteiros.";
+					break;
+				} catch (Exception exception) {
+					mensagem = "Lista inválida.";
+					break;
+				}
+			}
+		}
+
+		
+	}
+	
+	
+	public static void main(String[] args) {
+		// Exemplo de utilização de String.split()
+		
+		String numeros = "1 2   3 4 5 6	7		8";
+		String[] nums = numeros.split("\\s+");
+		for(String n: nums)
+			System.out.println(n);
+		
+		System.out.println();
+		
+		// Exemplo de utilização de Arrays.sort();
+		int[] vet = {5,42,39,0,2,4,-1,6};
+		Arrays.sort(vet);
+		for(int v: vet)
+			System.out.print(v + " ");
+		
+		System.out.println();
+	}
+}

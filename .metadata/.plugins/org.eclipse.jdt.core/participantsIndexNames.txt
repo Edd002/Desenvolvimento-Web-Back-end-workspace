@@ -1,0 +1,13 @@
+INDEX VERSION 1.131
+C:\Users\eddua\Documents\Eduardo Augusto\Universidade\FUMEC\5º Período\Desenvolvimento Web Back-End\Exercícios\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1604724271.index
+\LabExtra\src
+C:\Users\eddua\Documents\Eduardo Augusto\Universidade\FUMEC\5º Período\Desenvolvimento Web Back-End\Exercícios\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\360104240.index
+\MontyPrj\src
+C:\Users\eddua\Documents\Eduardo Augusto\Universidade\FUMEC\5º Período\Desenvolvimento Web Back-End\Exercícios\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\225470439.index
+\LabExtra\src
+C:\Users\eddua\Documents\Eduardo Augusto\Universidade\FUMEC\5º Período\Desenvolvimento Web Back-End\Exercícios\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\500457401.index
+\Lab08\src
+C:\Users\eddua\Documents\Eduardo Augusto\Universidade\FUMEC\5º Período\Desenvolvimento Web Back-End\Exercícios\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\346009294.index
+\LabExtra\src
+C:\Users\eddua\Documents\Eduardo Augusto\Universidade\FUMEC\5º Período\Desenvolvimento Web Back-End\Exercícios\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1219844915.index
+\Lab09\src

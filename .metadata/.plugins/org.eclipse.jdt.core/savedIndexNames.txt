@@ -1,0 +1,26 @@
+INDEX VERSION 1.130+U:\5º Período\Desenvolvimento Web Back-End\Exercícios\workspace\.metadata\.plugins\org.eclipse.jdt.core
+1727409351.index
+2966822278.index
+2378274756.index
+4173316275.index
+591889177.index
+380739999.index
+3004495116.index
+3697721658.index
+3929134227.index
+520613300.index
+249397805.index
+1744887074.index
+3146021274.index
+3377920350.index
+2529507701.index
+1639354633.index
+2582471525.index
+779898130.index
+4291953834.index
+2411261989.index
+14955231.index
+1228945229.index
+4238783475.index
+2760838681.index
+918221707.index

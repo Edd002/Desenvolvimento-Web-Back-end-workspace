@@ -1,0 +1,8 @@
+127.0.0.1 - - [02/Apr/2019:16:32:26 -0300] "GET / HTTP/1.1" 404 1081
+0:0:0:0:0:0:0:1 - - [02/Apr/2019:16:32:27 -0300] "GET /prova01prj/imcservlet HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [02/Apr/2019:16:32:52 -0300] "GET /prova01prj/index.html HTTP/1.1" 200 585
+0:0:0:0:0:0:0:1 - - [02/Apr/2019:16:32:55 -0300] "POST /prova01prj/imcservlet HTTP/1.1" 200 537
+0:0:0:0:0:0:0:1 - - [02/Apr/2019:16:33:30 -0300] "POST /prova01prj/imcservlet HTTP/1.1" 200 532
+0:0:0:0:0:0:0:1 - - [02/Apr/2019:16:33:35 -0300] "POST /prova01prj/imcservlet HTTP/1.1" 200 532
+0:0:0:0:0:0:0:1 - - [02/Apr/2019:16:33:45 -0300] "POST /prova01prj/imcservlet HTTP/1.1" 200 520
+0:0:0:0:0:0:0:1 - - [02/Apr/2019:16:33:50 -0300] "POST /prova01prj/imcservlet HTTP/1.1" 200 537
