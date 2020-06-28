@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename method &apos;tutorial.spring.aplicacao.ClasseA.execute()&apos; to &apos;executeClasseX&apos;&#x0D;&#x0A;- Original project: &apos;aplicacao&apos;&#x0D;&#x0A;- Original element: &apos;tutorial.spring.aplicacao.ClasseA.execute()&apos;&#x0D;&#x0A;- Renamed element: &apos;tutorial.spring.aplicacao.ClasseA.executeClasseX()&apos;&#x0D;&#x0A;- Update references to refactored element" delegate="false" deprecate="false" description="Rename method &apos;execute&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.method" input="/src\/main\/java&lt;tutorial.spring.aplicacao{ClasseA.java[ClasseA~execute" name="executeClasseX" references="true" stamp="1560043392367" version="1.0"/>
-</session>
